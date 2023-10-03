@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class WaroengKutai {
@@ -100,4 +99,7 @@ public class WaroengKutai {
             System.out.println("Terjadi kesalahan saat mencetak struk pembayaran.");
         }
     }
+
+    public void setMenuList(List<MenuWaroeng> menuList) {}
+    public void setOrderList(List<Pesanan> list) {}
 }
